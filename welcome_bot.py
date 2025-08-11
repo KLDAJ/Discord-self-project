@@ -41,7 +41,7 @@ def hex_to_int(hex_code):
     return int(hex_code.lstrip("#"), 16)
 
 # Replace with your bot's token
-TOKEN = "MTM0NjE4ODE3ODIxMzU3MjY1OA.Gw9hqL.1kP9hOEUax4xftkkUEkD24fYUv128c4nvi0dQE"
+TOKEN = ""
 
 # Set up the bot with intents
 intents = discord.Intents.default()
@@ -264,3 +264,4 @@ async def test_goodbye(interaction: discord.Interaction):
 # Run the bot
 bot.run(TOKEN)
     
+
